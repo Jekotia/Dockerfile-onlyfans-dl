@@ -19,9 +19,9 @@ docker run \
 services:
   onlyfans-dl:
     image: jekotia/onlyfans-dl:latest
-	container_name: onlyfans-dl
-	command: all
-	volumes:
-	  - <onlyfans-dl_dir>/auth.json:/onlyfans-dl/auth.json:ro
-	  - <onlyfans-dl_dir>/profiles:/onlyfans-dl/profiles
+    container_name: onlyfans-dl
+    command: all
+    volumes:
+      - <onlyfans-dl_dir>/auth.json:/onlyfans-dl/auth.json:ro
+      - <onlyfans-dl_dir>/profiles:/onlyfans-dl/profiles
 ```
